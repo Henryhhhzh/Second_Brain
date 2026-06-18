@@ -10,7 +10,7 @@ export const DEFAULT_SETTINGS: NeuralVaultSettings = {
   providers: {
     openai: {
       apiKey: "",
-      model: "gpt-5.2"
+      model: "gpt-5.4-mini"
     },
     anthropic: {
       apiKey: "",
@@ -22,7 +22,7 @@ export const DEFAULT_SETTINGS: NeuralVaultSettings = {
     },
     openrouter: {
       apiKey: "",
-      model: "openai/gpt-5.2"
+      model: "openai/gpt-5.4-mini"
     }
   }
 };
