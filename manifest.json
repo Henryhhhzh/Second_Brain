@@ -1,0 +1,9 @@
+{
+  "id": "neural-vault",
+  "name": "Neural Vault",
+  "version": "0.1.0",
+  "minAppVersion": "1.6.0",
+  "description": "A neural knowledge graph, universal AI conversation importer, and multi-provider vault assistant.",
+  "author": "Neural Vault",
+  "isDesktopOnly": false
+}
