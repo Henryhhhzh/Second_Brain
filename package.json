@@ -1,0 +1,25 @@
+{
+  "name": "neural-vault",
+  "version": "0.1.0",
+  "description": "Neural knowledge graph and multi-provider AI interface for Obsidian",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc --noEmit --skipLibCheck && node esbuild.config.mjs production",
+    "check": "tsc --noEmit --skipLibCheck"
+  },
+  "keywords": [
+    "obsidian",
+    "ai",
+    "knowledge-graph",
+    "second-brain"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "esbuild": "^0.25.5",
+    "obsidian": "latest",
+    "typescript": "^5.8.3"
+  }
+}
